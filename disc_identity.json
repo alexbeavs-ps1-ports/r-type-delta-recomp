@@ -1,0 +1,24 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "R-Type Delta (USA).cue",
+      "bin_name": "R-Type Delta (USA).bin",
+      "size": 339381840,
+      "md5": "37e64eafbf0a9bda92332d79f9a72e1e",
+      "sha1": "33bec6c0f13de97d1fd5d2a5a35c6fca86242575",
+      "crc32": "0f2e538a",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "R-Type Delta (USA).bin",
+          "size": "339381840",
+          "crc": "0f2e538a",
+          "md5": "37e64eafbf0a9bda92332d79f9a72e1e",
+          "sha1": "33bec6c0f13de97d1fd5d2a5a35c6fca86242575"
+        }
+      ]
+    }
+  ]
+}

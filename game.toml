@@ -1,0 +1,44 @@
+
+[game]
+name = "R-Type Delta"
+id = "SLUS-00877"
+players = 1
+exe = "disc/SLUS_008.77"
+disc = "disc/R-Type Delta (USA).cue"
+load_address = "0x80018000"
+entry_pc = "0x80018A34"
+text_size = "0x00010000"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "R-Type Delta (USA).bin"
+cue_name = "R-Type Delta (USA).cue"
+boot_exe = "SLUS_008.77"
+known_sizes = [339381840]
+known_md5 = ["37e64eafbf0a9bda92332d79f9a72e1e"]
+known_sha1 = ["33bec6c0f13de97d1fd5d2a5a35c6fca86242575"]
+known_crc32 = ["0f2e538a"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "R-Type Delta Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "52e6259c22371bfd45844b614bcbef272192ddddfccd1f86c746555301431282"
