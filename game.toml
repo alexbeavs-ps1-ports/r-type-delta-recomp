@@ -5,6 +5,8 @@ id = "SLUS-00877"
 players = 1
 exe = "disc/SLUS_008.77"
 disc = "disc/R-Type Delta (USA).cue"
+discs = ["disc/R-Type Delta (USA).cue"]
+disc_serials = ["SLUS-00877"]
 load_address = "0x80018000"
 entry_pc = "0x80018A34"
 text_size = "0x00010000"
@@ -21,7 +23,7 @@ known_sha1 = ["33bec6c0f13de97d1fd5d2a5a35c6fca86242575"]
 known_crc32 = ["0f2e538a"]
 
 [recompiler]
-bios_config = "psxrecomp/bios/SCPH5552.toml"
+bios_config = "psxrecomp/bios/SCPH1001.toml"
 seeds = "seeds/ghidra_funcs.txt"
 out_dir = "generated"
 strict = true
